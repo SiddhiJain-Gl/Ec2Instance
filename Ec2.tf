@@ -2,6 +2,6 @@ provider "aws" {
  profile = "default"
 }
 resource "aws_instance" "ec2-demo" {
- ami = "ami-020001fa39dfd1881"
+ ami = "ami-019a4607ba39bfde6"
  instance_type = "t2.micro"
 }
